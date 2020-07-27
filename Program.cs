@@ -16,7 +16,7 @@ namespace Lab7_4DatingGameOOPEncapAbstract
             DatingProfile datingProfile2 = new DatingProfile("Jessica", "Pachel", 24, "Female");
             datingProfile2.WriteBio("Looking for fun loving and serious guy to build a legacy with.");
 
-            datingProfile1.SendMessage("Hi Denise, Wanna meet?", "Zoom chat tonight?", datingProfile2);
+            datingProfile1.SendMessage("Hi Jess, Wanna meet?", "Zoom chat tonight?", datingProfile2);
             datingProfile2.ReadMessage();
         }
     }
